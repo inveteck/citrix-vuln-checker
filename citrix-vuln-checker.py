@@ -41,7 +41,7 @@ try:
 
 	banner()
 	ip=raw_input("Enter ip address:")
-	port=input("Enter port address:")
+	port=input("Enter port number:")
 	trigger(ip,port)
 
 except KeyboardInterrupt:
